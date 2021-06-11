@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+body{
+    margin:0;
+}
+
+
+.redes-sociales{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(81, 87, 122);
+    height:60px;
+    color:rgb(37, 49, 218);
+}
+
+.contenedor-redes a{
+    color:whitesmoke;
+}
+
+
+nav{
+    height:80px;
+    background-color: turquoise;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Train One', cursive;
+}
+
+nav .logotipo-header img{
+    height:70px;
+}
+
+nav .menu-navegacion ul{
+    list-style: none;
+    display:flex;
+}
+
+nav .menu-navegacion  ul{
+    margin-right: 30px;
+}
+.menu-navegacion a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+.contenedor-redes i{
+    margin-right: 15px;
+}
+
+.main-section{
+    height: 800px;
+    /* border: 5px solid red;*/
+    background-image: url("../Imagenes/robot.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-contenedor{
+    text-align: center;
+    color: white;
+
+}
+.main-contenedor button{
+    background-color:#10505c;
+    width:200px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+.footer{
+    height: 80px;
+    background-color:#10505c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
